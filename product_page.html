@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bun Bun's Bake Shop</title>
+
+    <!-- styles -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+<body>	
+	<div class="header">
+		<div id = "logo">
+			<a href="index.html">
+				<img src = "Logo.png" alt = "logo"/>
+			</a>
+		</div>
+		<div id = "cart">
+			<a href="shopping-cart.html">
+				<img src = "cart.png" alt = "shopping_cart"/>
+			</a>
+		</div>
+		<h1>Our Cinnamon Rolls</h1>
+	</div>
+
+	<!-- navigation bar -->
+	<div class = "nav">
+		<div id = "menu">
+			<a href="products.html">Our Products</a>
+		</div>
+		<div id = "story">
+			<a href="#story">Our Story</a> 
+		</div>
+		<div id = "contact">
+			<a href ="#contact">Contact Us</a> 
+		</div>
+	</div>		
+
+	<!-- Birthday Cake Roll description & picture -->
+
+	<div class = "product-info">
+		<div id = "product-description">
+			<p> With creamy vanilla frosting, an abundance of colorful sprinkles, and our delightful classic cinnamon roll, this will surely be a birthday you won’t forget! <p>
+		</div>
+		<div id = "instructions">
+			<p>For the multi-packs, choose up to two additional flavors!<p>
+		<div class = "pack-buttons">
+			<button id="one-pack" type="button" onclick = "changeProductSing()">One Pack</button>
+			<button id="six-pack" type="button" onclick = "changeProductSix()">Six Pack</button>
+			<button id="twelve-pack" type="button" onclick = "changeProductTwelve()">Twelve Pack</button>
+		</div>
+		<div class = "options">
+			<select id = "option1" disabled onchange= "setaddOption1()">
+				<option value="" disabled selected>Select your option</option>
+				<option value="None">No Additional Flavor</option>
+				<option value="Original">Original</option>
+				<option value="Original-Vegan">Original (Vegan)</option>
+				<option value="Original-GF">Original (Gluten Free) </option>
+				<option value="Caramel Pecan">Caramel Pecan</option>
+				<option value="Caramel Maple Apple">Caramel Maple Apple</option>
+				<option value="Bacon">Bacon</option>
+				<option value="Walnut">Walnut</option>
+				<option value="Pumpkin Spice">Pumpkin Spice</option>
+				<option value="Carrot Cake">Carrot Cake</option>
+				<option value="Buttermilk">Buttermilk</option>
+				<option value="Lemon Lavender">Lemon Lavender</option>
+				<option value="Cranberry">Cranberry</option>
+				<option value="Blackberry">Blackberry</option>
+				<option value="Strawberry Rhubarb">Strawberry Rhubarb</option>
+			</select>
+			<select id = "option2" disabled onchange="setaddOption2()">
+				<option value="" disabled selected>Select your option</option>
+				<option value="None">No Additional Flavor</option>
+				<option value="Original">Original</option>
+				<option value="Original-Vegan">Original (Vegan)</option>
+				<option value="Original-GF">Original (Gluten Free) </option>
+				<option value="Caramel Pecan">Caramel Pecan</option>
+				<option value="Caramel Maple Apple">Caramel Maple Apple</option>
+				<option value="Bacon">Bacon</option>
+				<option value="Walnut">Walnut</option>
+				<option value="Pumpkin Spice">Pumpkin Spice</option>
+				<option value="Carrot Cake">Carrot Cake</option>
+				<option value="Buttermilk">Buttermilk</option>
+				<option value="Lemon Lavender">Lemon Lavender</option>
+				<option value="Cranberry">Cranberry</option>
+				<option value="Blackberry">Blackberry</option>
+				<option value="Strawberry Rhubarb">Strawberry Rhubarb</option>
+			</select>
+	</div>
+		<div>
+			<select id= "quantity" onchange= "setQuantity()">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option> 
+			</select>
+		</div>
+		<div>
+			<button id="add-cart" type="button" onclick = "newOrder()">Add to Cart</button>
+		</div>
+
+	<div id = "product-title">
+		<p>Birthday Cake</p>
+	</div>
+
+
+	<div id = "product-info-pic">
+		<img id= "product-pic" src = "birthday_cake.png" alt = "birthday cake"/> 
+	</div>
+
+
+	
+	
+
+
+
