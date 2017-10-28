@@ -1,0 +1,191 @@
+body {
+	background-color:EFEFF0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.header #logo {
+	float: left;
+	width: 120px;
+	height: 152px;
+}
+
+.header #cart {
+	float: right;
+	width: 90px;
+	height: 90px;
+}
+
+.header h1 {
+	text-align: center;
+	font-family: Avenir-Book;
+	font-size: 72px;
+	color: #000000;
+	letter-spacing: 0;
+}
+
+.nav {
+	font-family: Avenir-Book;
+	font-size: 36px;
+	color: #000000;
+	letter-spacing: 0;
+}
+
+.nav #menu {
+	text-align: center;
+	border: 1px solid #979797;
+	float: left;
+	width: 305px;
+	height: 50px;
+	background: #BC9EC1;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 75px;
+}
+
+.nav #story {
+	text-align: center;
+	border: 1px solid #979797;
+	float: left;
+	width: 305px;
+	height: 50px;
+	background: #BC9EC1;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 75px;
+}
+
+.nav #contact {
+	text-align: center;
+	border: 1px solid #979797;
+	float: left;
+	width: 305px;
+	height: 50px;
+	background: #BC9EC1;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 75px;
+
+}
+
+
+.intro {
+	text-align: center;
+	font-family: Avenir-Book;
+	font-size: 30px;
+	color: #000000;
+	letter-spacing: 0;
+	margin-left: 150px;
+	margin-top:200px;
+}
+
+#slogan {
+	font-family: Avenir-LightOblique;;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.intro-pics {
+	text-align: center;
+}
+
+#map {
+	margin-left:150px;
+}
+
+#rolls {
+	float: right;
+	margin-right: 140px;
+	margin-left:60px;
+}
+
+div.gallery {
+    width: 250px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Avenir-Book;
+    font-size: 12px;
+}
+
+#product-title {
+	font-family: Avenir-Medium;
+	font-size: 48px;
+	color: #000000;
+	letter-spacing: 0;
+	margin-left: -500px;
+	margin-top: -750px;
+}
+
+#product-info-pic{
+	margin-left:-600px;
+
+}
+
+.product-info {
+	float: right;
+	width: 50%;
+}
+
+#product-description {
+	
+	font-family: Avenir-Book;
+	font-size: 36px;
+	text-align: left;
+	margin-top: 100px;
+
+}
+
+#instructions {	
+	font-family: Avenir-Book;
+	font-size: 20px;
+	text-align: left;
+}
+
+#add-cart {
+	margin-top:-100px;
+	margin-left:200px;
+	background-color: #FFA69E;
+	font-size: 40px;
+	border-radius: 10px;
+}
+
+.pack-buttons button {
+	margin-right:50px;
+	margin-left:50px;
+	font-size: 24px;
+	border-radius: 12px;
+	background-color: #BC9EC1;
+}
+
+.options{
+	margin-left:150px;
+	margin-top:50px;
+}
+
+#quantity {
+	margin-top:150px;
+	margin-left:450px;
+}
+
+
